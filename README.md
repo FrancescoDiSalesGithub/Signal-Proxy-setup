@@ -1,5 +1,5 @@
 # Signal-Proxy-setup
-A Guide about how to set a signal proxy for Signal app.
+A Guide about how to setup a signal proxy for Signal app.
 
 ## Introduction
 
