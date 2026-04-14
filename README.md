@@ -41,16 +41,13 @@ After registering on freenom, register (or login in if you are already registere
 After the vps is running, run the following:
 `sudo apt update && sudo apt install -y docker.io docker-compose git`
 
-After the installation from apt download the signal proxy from:
-`git clone https://github.com/signalapp/Signal-TLS-Proxy.git`
+After the installation run the restart.sh script if you already have signal proxy installed otherwise run signal-proxy.sh:
+`bash signal-proxy.sh`
 
 Go then to the folder **Signal-TLS-Proxy**:
 `cd Signal-TLS-Proxy`
 
-Run the **init-certificate-script.sh** and when asked enter your domain:
-`./init-certificate.sh`
-
-After the script is done, launch the proxy with docker-compose:
+launch the proxy with docker-compose:
 `docker-compose up -d`
 
 The proxy is now running.
