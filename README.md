@@ -41,7 +41,7 @@ After registering on freenom, register (or login in if you are already registere
 After the vps is running, run the following:
 `sudo apt update && sudo apt install -y docker.io docker-compose git`
 
-After the installation run the restart.sh script if you already have signal proxy installed otherwise run signal-proxy.sh:
+After the installation run the restart.sh script if you already have signal proxy installed and then run signal-proxy.sh:
 `bash signal-proxy.sh`
 
 Go then to the folder **Signal-TLS-Proxy**:
